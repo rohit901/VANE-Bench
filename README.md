@@ -28,7 +28,7 @@ Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for 
 
 ## :hammer_and_wrench: Setup and Installation
 
-## :floppy_disk: Datasets
+## :floppy_disk: Dataset
 
 ## :email: Contact
 Should you have any questions, please create an issue in this repository or contact rohit.bharadwaj@mbzuai.ac.ae or hanan.ghani@mbzuai.ac.ae.
