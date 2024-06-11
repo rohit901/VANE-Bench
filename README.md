@@ -77,17 +77,36 @@ python scripts/closed_source_models/QAGM.py --path="<path_to_annotated_dataset_a
 ```
 
 #### Evaluating GPT-4o on VQA task
-Download and unzip the VANE-Bench dataset from [Dataset](#floppy_disk-dataset)
+1. Download and unzip the VANE-Bench dataset by following [Dataset](#floppy_disk-dataset).
+2. Evaluate GPT-4o one dataset at a time. For example, to evaluate it on "SORA" dataset, run the following:
+```bash
+python scripts/closed_source_models/evaluate_vqa_GPT.py --data_path="/path/to/VQA_Data/AI-Generated/SORA" --out_path="/path/to/GPT-4o/SORA"
+```
 
+#### Evaluating Gemini-1.5 Pro on VQA task
+1. Download and unzip the VANE-Bench dataset by following [Dataset](#floppy_disk-dataset).
+2. Evaluate Gemini-1.5 Pro one dataset at a time. For example, to evaluate it on "SORA" dataset, run the following:
+```bash
+python scripts/closed_source_models/eval_vqa_gemini.py --data_path="/path/to/VQA_Data/AI-Generated/SORA" --out_path="/path/to/Gemini-Pro/SORA"
+```
+
+#### Calculating LMMs accuracy on VQA task
+Following the previous instruction, once the prediction files for a LMM is generated, we can evaluate the LMM's accuracy by running:
+```bash
+python scripts/calc_lmm_vqa_accuracy.py --path="/path/to/GPT-4o/SORA"
+```
+The above command evaluates the accuracy of GPT-4o on the SORA dataset. To evaluate different models on different datasets, just modify the `path` variable accordingly.
 
 ### Open-Source LMMs Setup and Usage
 
 ## :floppy_disk: Dataset
+Our VANE-Bench dataset can be downloaded from the following [Drive Link](https://drive.google.com/drive/folders/1DkmPlSy2naUCyw0AA2NYYUUsWFbAM0cF?usp=sharing)
 
 ## :email: Contact
 Should you have any questions, please create an issue in this repository or contact rohit.bharadwaj@mbzuai.ac.ae or hanan.ghani@mbzuai.ac.ae.
 
 ## :pray: Acknowledgement
+We thank [OpenAI](https://github.com/openai/openai-python) and [Google](https://github.com/google-gemini/generative-ai-python) for their Python SDKs. 
 
 ## :black_nib: Citation
 If you found our work helpful, please consider starring the repository ⭐⭐⭐ and citing our work as follows:
