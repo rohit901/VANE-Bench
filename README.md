@@ -6,6 +6,8 @@
 
 Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs"
 
+*Authors marked with "\*" contributed equally to this work.
+
 ## :rocket: News
 * **(June 11, 2024)**
   * Our code, data, and the [project website](https://hananshafi.github.io/vane-benchmark/) is now live!
