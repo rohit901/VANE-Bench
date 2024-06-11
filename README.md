@@ -26,7 +26,61 @@ Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for 
 - We conduct detailed result analysis, and also perform human evaluation on VANE-Bench to set a reasonable benchmark target.
 - We open-source our code, and describe the data construction process of VANE-Bench along with making our data publicly available.
 
-## :hammer_and_wrench: Setup and Installation
+## :hammer_and_wrench: Setup and Usage
+To replicate our experiments, and to use our code:
+1. First clone the repository:
+```bash
+git clone git@github.com:rohit901/VANE-Bench.git
+```
+or
+```bash
+git clone https://github.com/rohit901/VANE-Bench.git
+```
+2. Change directory:
+```bash
+cd VANE-Bench
+```
+
+### Closed-Source LMMs Setup and Usage
+We used `python=3.11.8` in our experiments involving closed-source LMMs like GPT-4o and Gemini-1.5 Pro. 
+1. Setup a new conda environment with the specified python version:
+```bash
+conda create --name vane_bench python=3.11
+```
+2. Activate the environment
+```bash
+conda activate vane_bench
+```
+3. Install Libraries:
+```bash
+pip install openai opencv-python python-dotenv tqdm google-generativeai
+```
+4. Create a new `.env` file in `scripts/closed_source_models/`, and populate it with your OpenAI and Gemini API keys:
+```bash
+OPENAI_API_KEY=<your_key_here>
+GOOGLE_API_KEY=<your_key_here>
+```
+
+#### Caption Generation Module (CGM)
+CGM requires path to the directory containing frames annotated with bounding boxes. The `path` argument in the script is the absolute path to annotated dataset directory like 'SORA', 'ModelScope', 'UCFCrime', etc, and each of these dataset directories will contain multiple subdirectories (one per video clip in the dataset) containing the annotated frames. You can use our CGM with your own annotated data.
+To run the code:
+```bash
+python scripts/closed_source_models/CGM.py --path="<path_to_annotated_dataset>"
+```
+The above script will then generate caption for each video clip in the same directory as `path`.
+
+#### Question Answer Generation Module (QAGM)
+Once the captions are obtained from CGM, we can use QAGM to generate the final QA pairs. QAGM also requires `path` to the annotated data, and assumes that the captions are also in the same path.
+To run the code:
+```bash
+python scripts/closed_source_models/QAGM.py --path="<path_to_annotated_dataset_and_captions>"
+```
+
+#### Evaluating GPT-4o on VQA task
+Download and unzip the VANE-Bench dataset from [Dataset](#floppy_disk-dataset)
+
+
+### Open-Source LMMs Setup and Usage
 
 ## :floppy_disk: Dataset
 
