@@ -102,7 +102,7 @@ The above command evaluates the accuracy of GPT-4o on the SORA dataset. To evalu
 Follow the instructions [here](https://github.com/rohit901/VANE-Bench/tree/main/scripts/open_source_models) for setting up and evaluating open-source Video-LMMs.
 
 ## :floppy_disk: Dataset
-Our VANE-Bench dataset can be downloaded from the following [Drive Link](https://drive.google.com/drive/folders/1DkmPlSy2naUCyw0AA2NYYUUsWFbAM0cF?usp=sharing)
+Our VANE-Bench dataset can be downloaded from [Huggingface Hub](https://huggingface.co/datasets/rohit901/VANE-Bench). Users can either directly load the dataset using 🤗 Datasets, or download the zip file present in that repository.
 
 ## :email: Contact
 Should you have any questions, please create an issue in this repository or contact rohit.bharadwaj@mbzuai.ac.ae or hanan.ghani@mbzuai.ac.ae.
