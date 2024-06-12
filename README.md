@@ -11,7 +11,7 @@ Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for 
 
 ## :rocket: News
 * **(June 11, 2024)**
-  * Our code, data, and the [project website](https://hananshafi.github.io/vane-benchmark/) is now live!
+  * Our code, [data](https://huggingface.co/datasets/rohit901/VANE-Bench), and the [project website](https://hananshafi.github.io/vane-benchmark/) is now live!
 
 <hr>
 
