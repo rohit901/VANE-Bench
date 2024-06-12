@@ -53,7 +53,7 @@ conda activate vane_bench
 ```
 3. Install Libraries:
 ```bash
-pip install openai opencv-python python-dotenv tqdm google-generativeai
+pip install openai opencv-python python-dotenv tqdm google-generativeai pillow
 ```
 4. Create a new `.env` file in `scripts/closed_source_models/`, and populate it with your OpenAI and Gemini API keys:
 ```bash
