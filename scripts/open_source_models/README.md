@@ -50,7 +50,11 @@ Follow the instructions in [INSTALL.md](assets/INSTALL.md) to install packages a
 For each QA pair with multiple options, we prompt the Video-LMMs to generate a single option (A, B C, or D) corresponding to the correct answer. Follow [PREDICTIONS.md](assets/PREDICTIONS.md) for sample codes for generating answers using TimeChat, Video-LLaVA, Video-LLaMA. 
 
 #### 2) Comparing the Predicted Answers with Ground-Truth Answers for evaluation
-Once the answer predictions are generated from step 1, we calculate the standard accuracy by giving a score of 1 if the correct option matches the ground truth option and 0 if the answer is wrong. Please follow the instructions in [LLM_SCORING.md](assets/LLM_SCORING.md) for using LMM-Assisted evaluation. 
+Once the answer predictions are generated from step 1, we calculate the standard accuracy by giving a score of 1 if the correct option matches the ground truth option and 0 if the answer is wrong. Use the script [calc_lmm_vqa_accuracy.py](https://github.com/rohit901/VANE-Bench/blob/main/scripts/calc_lmm_vqa_accuracy.py) for computing evaluation accuracy. 
+```shell
+  python calc_lmm_vqa_accuracy.py --path <path-to-prediction-file>
+
+```
 
 <hr />
 
