@@ -98,6 +98,7 @@ python scripts/calc_lmm_vqa_accuracy.py --path="/path/to/GPT-4o/SORA"
 The above command evaluates the accuracy of GPT-4o on the SORA dataset. To evaluate different models on different datasets, just modify the `path` variable accordingly.
 
 ### Open-Source LMMs Setup and Usage
+Follow the instructions [here](https://github.com/rohit901/VANE-Bench/tree/main/scripts/open_source_models) for setting up and evaluating open-source Video-LMMs.
 
 ## :floppy_disk: Dataset
 Our VANE-Bench dataset can be downloaded from the following [Drive Link](https://drive.google.com/drive/folders/1DkmPlSy2naUCyw0AA2NYYUUsWFbAM0cF?usp=sharing)
