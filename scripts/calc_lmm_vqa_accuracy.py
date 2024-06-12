@@ -27,6 +27,6 @@ def main(path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Calculate the accuracy of LMM on VQA data, given its predictions and the ground truth data")
-    parser.add_argument("path", type=str, help="Path to the directory containing all the predictions files for a particular dataset.")
+    parser.add_argument("--path", type=str, help="Path to the directory containing all the predictions files for a particular dataset.")
     args = parser.parse_args()
     main(args.path)
