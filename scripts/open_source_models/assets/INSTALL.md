@@ -97,22 +97,3 @@ Use `git-lfs` to download weights of [Video-LLaMA (7B)](https://huggingface.co/D
 git lfs install
 git clone https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-7B-Finetuned
 ```
-
-## Setting environment for Gemini-Pro-Vision
-**Note:** We use google-cloud platform for performing inference using Gemini model. Specifically, you would need to set-up the following:
-1) Configure a project (or use an existing one, if any) on google cloud [more info here](https://developers.google.com/workspace/guides/create-project)
-2) Create a google-cloud bucket, and upload the [CVRR-ES dataset](https://mbzuaiac-my.sharepoint.com/:f:/g/personal/uzair_khattak_mbzuai_ac_ae/EktDA83_8UxJrc23DQfrfv8Bvw41YxWVBgD3Fapxs69rRg?e=Xxanhp) in that bucket. 
-3) Run the following commands to install the packages
-```shell
-conda create -n gemini python=3.10 -y
-pip install --upgrade google-cloud-aiplatform
-gcloud auth application-default login
-```
-
-## Setting environment for GPT4-(V)ision
-3) Run the following commands to install the packages
-```shell
-conda create -n gpt4v python=3.10 -y
-# install open-ai
-pip install openai==1.13.3
-```
