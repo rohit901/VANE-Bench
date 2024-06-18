@@ -2,7 +2,7 @@
 
 [Rohit Bharadwaj*](https://rohit901.github.io), [Hanan Gani*](https://hananshafi.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Salman Khan](https://salman-h-khan.github.io/)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]() [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/rohit901/VANE-Bench) [![Website](https://img.shields.io/badge/Website-Visit-green?logo=web)](https://hananshafi.github.io/vane-benchmark/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10326) [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/rohit901/VANE-Bench) [![Website](https://img.shields.io/badge/Website-Visit-green?logo=web)](https://hananshafi.github.io/vane-benchmark/)
 
 
 Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs"
@@ -113,10 +113,12 @@ We thank [OpenAI](https://github.com/openai/openai-python) and [Google](https://
 ## :black_nib: Citation
 If you found our work helpful, please consider starring the repository ⭐⭐⭐ and citing our work as follows:
 ```bibtex
-@article{vane2024bharadwaj,
-  author    = {Bharadwaj, Rohit and Gani, Hanan and Naseer, Muzammal and Khan, Fahad and Khan, Salman},
-  title     = {VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs},
-  journal   = {Arxiv},
-  year      = {2024},
+@misc{bharadwaj2024vanebench,
+      title={VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs}, 
+      author={Rohit Bharadwaj and Hanan Gani and Muzammal Naseer and Fahad Shahbaz Khan and Salman Khan},
+      year={2024},
+      eprint={2406.10326},
+      archivePrefix={arXiv},
+      primaryClass={id='cs.CV' full_name='Computer Vision and Pattern Recognition' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.'}
 }
 ```
