@@ -10,6 +10,8 @@ Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for 
 *Authors marked with "\*" contributed equally to this work.
 
 ## :rocket: News
+* **(Jan 26, 2025)**
+  * Our paper has been accepted to [NAACL 2025](https://2025.naacl.org/) 🥳🎊
 * **(June 11, 2024)**
   * Our code, [data](https://huggingface.co/datasets/rohit901/VANE-Bench), and the [project website](https://hananshafi.github.io/vane-benchmark/) is now live!
 
