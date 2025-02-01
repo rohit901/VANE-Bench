@@ -1,4 +1,4 @@
-# VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs
+# VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs [NAACL 2025]
 
 [Rohit Bharadwaj*](https://rohit901.github.io), [Hanan Gani*](https://hananshafi.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Salman Khan](https://salman-h-khan.github.io/)
 
