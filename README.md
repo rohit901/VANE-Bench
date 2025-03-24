@@ -2,7 +2,8 @@
 
 [Rohit Bharadwaj*](https://rohit901.github.io), [Hanan Gani*](https://hananshafi.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Fahad Khan](https://sites.google.com/view/fahadkhans/home), [Salman Khan](https://salman-h-khan.github.io/)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10326) [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/rohit901/VANE-Bench) [![Website](https://img.shields.io/badge/Website-Visit-green?logo=web)](https://hananshafi.github.io/vane-benchmark/)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.10326) [![Dataset](https://img.shields.io/badge/Dataset-Download-orange?logo=database)](https://huggingface.co/datasets/rohit901/VANE-Bench) [![Website](https://img.shields.io/badge/Website-Visit-green?logo=web)](https://hananshafi.github.io/vane-benchmark/) [![Video](https://img.shields.io/badge/Presentation-Video-red?logo=youtube)](https://youtu.be/fqjQWx6f2SM)
+
 
 
 Official code for our paper "VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs"
