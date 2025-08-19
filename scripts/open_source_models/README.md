@@ -9,7 +9,7 @@
 
 ### Download VANE-Bench Dataset
 
-VANE-Bench dataset can be downloaded [using this link (zipped)](https://drive.google.com/drive/folders/1DkmPlSy2naUCyw0AA2NYYUUsWFbAM0cF).
+VANE-Bench dataset can be downloaded [using this link (zipped)](https://huggingface.co/datasets/rohit901/VANE-Bench/blob/main/VQA_Data.zip).
 After unzipping, the VANE-Bench dataset structure looks like the following:
 
 ```
